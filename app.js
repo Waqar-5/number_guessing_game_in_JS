@@ -18,4 +18,4 @@ if (userInput === secretNumber){
 
 
 console.log("User input: ",userInput);
-console.log("Secret number: ",secretNumber);
+// console.log("Secret number: ",secretNumber);
