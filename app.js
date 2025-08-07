@@ -3,10 +3,10 @@ alert("🎯 Welcome to the Number Guessing Game!");
 
 secretNumber = (Math.floor(Math.random() * 10) + 1)
 // secretNumber = (Math.random)
-console.log("Secret number: ",secretNumber);
+
 
 userInput = +prompt("👤 Enter number between 1 to 10: ")
-console.log("User input: ",userInput);
+
 
 
 if (userInput === secretNumber){
@@ -16,3 +16,6 @@ if (userInput === secretNumber){
     
 }
 
+
+console.log("Secret number: ",secretNumber);
+console.log("User input: ",userInput);
